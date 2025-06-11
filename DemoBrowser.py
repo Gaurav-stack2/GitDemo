@@ -6,9 +6,10 @@ from selenium import webdriver
 #Edge Driver
 driver = webdriver.Chrome() #driver is basicallhy the object of the Chrome class
 driver.get('http://google.com')
-driver.maximize_window()
+print(driver.page_source)
 print(driver.title)
 print(driver.current_url)
+
 
 
 
